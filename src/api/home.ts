@@ -5,16 +5,16 @@ export function getSliders<T>() {
   //   return axios.get<T, T>("/slider/list");
   return Promise.resolve<ISlider[]>([
     {
-      url: "/1.png",
+      url: `${process.env.BASE_URL}1.png`,
     },
     {
-      url: "/2.png",
+      url: `${process.env.BASE_URL}2.png`,
     },
     {
-      url: "/3.png",
+      url: `${process.env.BASE_URL}3.png`,
     },
     {
-      url: "/4.png",
+      url: `${process.env.BASE_URL}4.png`,
     },
   ]);
 }

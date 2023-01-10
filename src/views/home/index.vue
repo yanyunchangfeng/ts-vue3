@@ -25,6 +25,7 @@ import { CATEGORY_TYPES } from '@/typings/home'
 import * as Types from '@/store/action-types'
 console.log(process.env.NODE_ENV)
 console.log(process.env.AUTHOR)
+console.log(process.env.BASE_URL)
 // 专门为修改分类使用的 options api
 function useCategory(store: Store<IGlobalState>) {
     let category = computed(() => store.state.home.currentCategory)
