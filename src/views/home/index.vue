@@ -1,15 +1,23 @@
 <template>
     <div class="home">
         <HomeHeader :category="category" @setCurrentCategory="setCurrentCategory"></HomeHeader>
-        <HomeSwiper></HomeSwiper>
+        <!-- 轮播图-->
+        <Suspense>
+            <template #default>
+                <HomeSwiper></HomeSwiper>
+            </template>
+            <template #fallback>
+                <div>loading...</div>
+            </template>
+        </Suspense>
+
         <HomeList></HomeList>
     </div>
 </template>
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, computed } from 'vue';
 import { Store, useStore } from 'vuex';
 import { IGlobalState } from '@/store'
-import { computed } from 'vue'
 import HomeHeader from './home-header.vue';
 import HomeList from './home-list.vue';
 import HomeSwiper from './home-swiper.vue';

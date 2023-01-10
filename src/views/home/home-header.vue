@@ -4,7 +4,6 @@
         <van-dropdown-menu>
             <van-dropdown-item :model-value="category" :options="options" @change="change" />
         </van-dropdown-menu>
-
     </div>
 </template>
 <style lang="scss">

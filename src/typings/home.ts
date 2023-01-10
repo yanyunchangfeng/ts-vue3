@@ -3,17 +3,17 @@ export enum CATEGORY_TYPES {
   REACT,
 }
 
-interface ILesson {
+export interface ILesson {
   title: string;
   video: string;
   poster: string;
   category?: string;
 }
-interface ISlider {
+export interface ISlider {
   url: string;
 }
 
-interface ILessons {
+export interface ILessons {
   hasMore: boolean;
   loading: boolean;
   offset: number;

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkts_vue3"]=self["webpackChunkts_vue3"]||[]).push([[845],{738:function(e,n,r){r.r(n),r.d(n,{default:function(){return f}});var t=r(252),u={class:"home"};function s(e,n,r,s,a,c){return(0,t.wg)(),(0,t.iD)("div",u," profile ")}var a=(0,t.aZ)({name:"Profile",components:{}}),c=r(744);const o=(0,c.Z)(a,[["render",s]]);var f=o}}]);
+//# sourceMappingURL=profile.62ca7d18.js.map
