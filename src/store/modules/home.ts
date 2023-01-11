@@ -1,8 +1,8 @@
 import { IGlobalState } from "../";
-import { CATEGORY_TYPES, IHomeState, ISlider } from "@/typings/home";
+import { CATEGORY_TYPES, IHomeState, ILessons, ISlider } from "@/typings/home";
 import { Module } from "vuex";
 import * as Types from "../action-types";
-import { getSliders } from "@/api/home";
+import { getLesson, getSliders } from "@/api/home";
 
 // 首页里应该存哪些数据
 const state: IHomeState = {
@@ -27,11 +27,35 @@ const home: Module<IHomeState, IGlobalState> = {
     [Types.SET_SLIDER_LIST](state, payload: ISlider[]) {
       state.sliders = payload;
     },
+    [Types.SET_LOADING](state, payload: boolean) {
+      state.lessons.loading = payload;
+    },
+    [Types.SET_LESSON_LIST](state, payload: ILessons) {
+      state.lessons.list = [...state.lessons.list, ...payload.list];
+      state.lessons.hasMore = payload.hasMore;
+      state.lessons.offset = state.lessons.offset + payload.list.length;
+    },
   },
   actions: {
     async [Types.SET_SLIDER_LIST]({ commit }) {
       let sliders = await getSliders<ISlider[]>();
       commit(Types.SET_SLIDER_LIST, sliders);
+    },
+    async [Types.SET_LESSON_LIST]({ commit }) {
+      if (state.lessons.loading) {
+        return;
+      }
+      if (!state.lessons.hasMore) {
+        return;
+      }
+      commit(Types.SET_LOADING, true); //开始加载数据
+      let lessons = await getLesson<ILessons>(
+        state.currentCategory,
+        state.lessons.offset,
+        state.lessons.limit
+      );
+      commit(Types.SET_LESSON_LIST, lessons);
+      commit(Types.SET_LOADING, true);
     },
   },
 };

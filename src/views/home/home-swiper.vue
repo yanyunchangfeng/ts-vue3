@@ -1,14 +1,15 @@
 <template>
-    <van-swipe v-if="sliderList.length" :autoplay="3000" indicator-color="white">
-        <van-swipe-item v-for="l in sliderList" :key="l.url">
-            <img :src="l.url" style="max-width: 100%;">
-        </van-swipe-item>
-    </van-swipe>
+    <div class="home-swiper">
+        <van-swipe v-if="sliderList.length" :autoplay="3000" indicator-color="white">
+            <van-swipe-item v-for="l in sliderList" :key="l.url">
+                <img :src="l.url" style="max-width: 100%;">
+            </van-swipe-item>
+        </van-swipe>
+    </div>
 </template>
 <style lang="scss">
-.van-swipe {
-    top: 65px;
-    z-index: -1;
+.home-swiper {
+    margin-top: 65px;
 }
 </style>
 <script lang="ts">

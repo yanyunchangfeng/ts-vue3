@@ -10,12 +10,12 @@
                 <div>loading...</div>
             </template>
         </Suspense>
-
-        <HomeList></HomeList>
+        <!--课程列表-->
+        <HomeList :lessonList="lessonList"></HomeList>
     </div>
 </template>
 <script lang="ts">
-import { defineComponent, computed } from 'vue';
+import { defineComponent, computed, onMounted } from 'vue';
 import { Store, useStore } from 'vuex';
 import { IGlobalState } from '@/store'
 import HomeHeader from './home-header.vue';
@@ -37,6 +37,15 @@ function useCategory(store: Store<IGlobalState>) {
         setCurrentCategory
     }
 }
+function useLessonList(store: Store<IGlobalState>) {
+    const lessonList = computed(() => store.state.home.lessons.list);
+    onMounted(() => {
+        if (lessonList.value.length === 0) {
+            store.dispatch(`home/${Types.SET_LESSON_LIST}`)
+        }
+    })
+    return { lessonList }
+}
 export default defineComponent({
     name: 'Home',
     components: {
@@ -45,12 +54,22 @@ export default defineComponent({
         HomeSwiper
     },
     setup() {
-        let store = useStore<IGlobalState>()
-        let { category, setCurrentCategory } = useCategory(store)
+        // 1.需要获取vuex中的分类状态，有个更改状态的功能
+        let store = useStore<IGlobalState>();
+        // 分类
+        let { category, setCurrentCategory } = useCategory(store);
+        // 课程获取
+        let { lessonList } = useLessonList(store)
         return {
             category,
-            setCurrentCategory
+            setCurrentCategory,
+            lessonList
         }
     }
 })
 </script>
+<style lang="scss">
+.home {
+    margin-bottom: 50px
+}
+</style>

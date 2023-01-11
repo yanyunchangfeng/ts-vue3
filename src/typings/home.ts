@@ -4,10 +4,12 @@ export enum CATEGORY_TYPES {
 }
 
 export interface ILesson {
+  id: string;
   title: string;
   video: string;
   poster: string;
-  category?: string;
+  category: number;
+  price: number;
 }
 export interface ISlider {
   url: string;

@@ -18,6 +18,7 @@
     top: 0;
     left: 0;
     width: 95%;
+    z-index: 100;
 
     img {
         height: 50px;
