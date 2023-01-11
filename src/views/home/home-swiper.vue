@@ -8,9 +8,7 @@
     </div>
 </template>
 <style lang="scss">
-.home-swiper {
-    margin-top: 65px;
-}
+
 </style>
 <script lang="ts">
 import { IGlobalState } from '@/store';

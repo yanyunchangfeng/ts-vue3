@@ -1,6 +1,11 @@
-import axios from ".";
+import axios from "./";
 import { CATEGORY_TYPES, ILessons, ISlider } from "@/typings/home";
 //声明获取轮播图的接口api
+const sleep = (time: number) => {
+  return new Promise((res) => {
+    setTimeout(res, time);
+  });
+};
 export function getSliders<T>() {
   //   return axios.get<T, T>("/slider/list");
   return Promise.resolve<ISlider[]>([
@@ -16,13 +21,17 @@ export function getSliders<T>() {
     {
       url: `${process.env.BASE_URL}4.png`,
     },
+    {
+      url: `${process.env.BASE_URL}5.png`,
+    },
   ]);
 }
-export function getLesson<T>(
+export async function getLesson<T>(
   category: CATEGORY_TYPES,
   offset: number = 0,
   limit: number = 5
 ) {
+  await sleep(1000);
   return Promise.resolve({
     list: [
       {
@@ -57,8 +66,16 @@ export function getLesson<T>(
         price: 400,
         category: 4,
       },
+      {
+        id: "eeeee",
+        title: "Flutter全栈架构",
+        poster: `${process.env.BASE_URL}5.png`,
+        video: "",
+        price: 100,
+        category: 1,
+      },
     ],
-    hasMore: true,
+    hasMore: offset != 40 ? true : false,
     // limit: 5,
     // loading: true,
     // offset: 0,

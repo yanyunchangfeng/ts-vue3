@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div class="home-container" ref="refreshElm">
         <HomeHeader :category="category" @setCurrentCategory="setCurrentCategory"></HomeHeader>
         <!-- 轮播图-->
         <Suspense>
@@ -12,10 +12,12 @@
         </Suspense>
         <!--课程列表-->
         <HomeList :lessonList="lessonList"></HomeList>
+        <div v-if="isLoading">Loading...</div>
+        <div v-if="!hasMore">我是有底线的...</div>
     </div>
 </template>
 <script lang="ts">
-import { defineComponent, computed, onMounted } from 'vue';
+import { defineComponent, computed, onMounted, ref } from 'vue';
 import { Store, useStore } from 'vuex';
 import { IGlobalState } from '@/store'
 import HomeHeader from './home-header.vue';
@@ -23,6 +25,7 @@ import HomeList from './home-list.vue';
 import HomeSwiper from './home-swiper.vue';
 import { CATEGORY_TYPES } from '@/typings/home'
 import * as Types from '@/store/action-types'
+import { useLoadMore } from '@/hooks'
 console.log(process.env.NODE_ENV)
 console.log(process.env.AUTHOR)
 console.log(process.env.BASE_URL)
@@ -60,16 +63,25 @@ export default defineComponent({
         let { category, setCurrentCategory } = useCategory(store);
         // 课程获取
         let { lessonList } = useLessonList(store)
+        const refreshElm = ref<null | HTMLElement>(null)
+        const { isLoading, hasMore } = useLoadMore(refreshElm, store, `home/${Types.SET_LESSON_LIST}`)
         return {
             category,
             setCurrentCategory,
-            lessonList
+            lessonList,
+            refreshElm,
+            isLoading,
+            hasMore
         }
     }
 })
 </script>
 <style lang="scss">
-.home {
-    margin-bottom: 50px
+.home-container {
+    position: absolute;
+    top: 65px;
+    bottom: 50px;
+    width: 100%;
+    overflow-y: scroll;
 }
 </style>

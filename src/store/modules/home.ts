@@ -55,7 +55,7 @@ const home: Module<IHomeState, IGlobalState> = {
         state.lessons.limit
       );
       commit(Types.SET_LESSON_LIST, lessons);
-      commit(Types.SET_LOADING, true);
+      commit(Types.SET_LOADING, false);
     },
   },
 };

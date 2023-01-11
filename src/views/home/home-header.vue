@@ -47,7 +47,9 @@ export default defineComponent({
         let state = reactive({
             options: [
                 { text: "全部课程", value: CATEGORY_TYPES.ALL },
-                { text: "react课程", value: CATEGORY_TYPES.REACT }
+                { text: "React课程", value: CATEGORY_TYPES.REACT },
+                { text: "Electron课程", value: CATEGORY_TYPES.ELECTRON },
+                { text: "Node课程", value: CATEGORY_TYPES.NODE }
             ]
         })
         function change(value: CATEGORY_TYPES) {

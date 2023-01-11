@@ -1,6 +1,8 @@
 export enum CATEGORY_TYPES {
   ALL,
   REACT,
+  ELECTRON,
+  NODE,
 }
 
 export interface ILesson {
