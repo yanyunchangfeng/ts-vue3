@@ -11,6 +11,6 @@ module.exports = {
       }),
     ],
   },
-  outputDir: "docs",
+  outputDir: "dist",
   publicPath: "/ts-vue3/",
 };

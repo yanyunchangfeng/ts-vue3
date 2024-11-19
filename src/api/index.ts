@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
 
 axios.defaults.baseURL = `http://www.fullstackjavascript.cn:3000`;
-axios.interceptors.request.use((config: AxiosRequestConfig) => {
+axios.interceptors.request.use((config: any) => {
   return config;
 });
 
