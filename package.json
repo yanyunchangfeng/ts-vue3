@@ -1,6 +1,6 @@
 {
   "name": "ts-vue3",
-  "version": "0.1.0",
+  "version": "1.0.0-rc.1",
   "scripts": {
     "serve": "cross-env NODE_ENV=development AUTHOR=yanyunchangfeng vue-cli-service serve",
     "serve-pro": "cross-env NODE_ENV=production AUTHOR=yanyunchangfeng vue-cli-service serve",
