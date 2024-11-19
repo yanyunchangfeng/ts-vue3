@@ -16,32 +16,32 @@ importers:
         version: 4.17.21
       vant:
         specifier: ^4.0.7
-        version: 4.9.9(vue@3.5.13(typescript@4.7.4))
+        version: 4.9.9(vue@3.5.13(typescript@4.9.5))
       vue:
         specifier: ^3.2.13
-        version: 3.5.13(typescript@4.7.4)
+        version: 3.5.13(typescript@4.9.5)
       vue-router:
         specifier: ^4.0.3
-        version: 4.4.5(vue@3.5.13(typescript@4.7.4))
+        version: 4.4.5(vue@3.5.13(typescript@4.9.5))
       vuex:
         specifier: ^4.0.0
-        version: 4.1.0(vue@3.5.13(typescript@4.7.4))
+        version: 4.1.0(vue@3.5.13(typescript@4.9.5))
     devDependencies:
       '@semantic-release/changelog':
         specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.1.2(typescript@4.7.4))
+        version: 6.0.3(semantic-release@24.1.2(typescript@4.9.5))
       '@semantic-release/commit-analyzer':
         specifier: 13.0.0
-        version: 13.0.0(semantic-release@24.1.2(typescript@4.7.4))
+        version: 13.0.0(semantic-release@24.1.2(typescript@4.9.5))
       '@semantic-release/git':
         specifier: 10.0.1
-        version: 10.0.1(semantic-release@24.1.2(typescript@4.7.4))
+        version: 10.0.1(semantic-release@24.1.2(typescript@4.9.5))
       '@semantic-release/npm':
         specifier: 12.0.1
-        version: 12.0.1(semantic-release@24.1.2(typescript@4.7.4))
+        version: 12.0.1(semantic-release@24.1.2(typescript@4.9.5))
       '@semantic-release/release-notes-generator':
         specifier: 14.0.1
-        version: 14.0.1(semantic-release@24.1.2(typescript@4.7.4))
+        version: 14.0.1(semantic-release@24.1.2(typescript@4.9.5))
       '@types/jest':
         specifier: ^27.0.1
         version: 27.5.2
@@ -53,25 +53,25 @@ importers:
         version: 22.9.0
       '@vue/cli-plugin-router':
         specifier: ~5.0.0
-        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3))
+        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3))
       '@vue/cli-plugin-typescript':
         specifier: ~5.0.0
-        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3))(typescript@4.7.4)(vue@3.5.13(typescript@4.7.4))
+        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3))(typescript@4.9.5)(vue@3.5.13(typescript@4.9.5))
       '@vue/cli-plugin-unit-jest':
         specifier: ~5.0.0
-        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3))(@vue/vue3-jest@27.0.0(@babel/core@7.26.0)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4))(typescript@4.7.4)(vue@3.5.13(typescript@4.7.4)))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4))
+        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3))(@vue/vue3-jest@27.0.0(@babel/core@7.26.0)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5))(typescript@4.9.5)(vue@3.5.13(typescript@4.9.5)))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5))
       '@vue/cli-plugin-vuex':
         specifier: ~5.0.0
-        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3))
+        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3))
       '@vue/cli-service':
         specifier: ~5.0.0
-        version: 5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3)
+        version: 5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3)
       '@vue/test-utils':
         specifier: ^2.0.0-0
         version: 2.4.6
       '@vue/vue3-jest':
         specifier: ^27.0.0-alpha.1
-        version: 27.0.0(@babel/core@7.26.0)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4))(typescript@4.7.4)(vue@3.5.13(typescript@4.7.4))
+        version: 27.0.0(@babel/core@7.26.0)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5))(typescript@4.9.5)(vue@3.5.13(typescript@4.9.5))
       babel-jest:
         specifier: ^27.0.6
         version: 27.5.1(@babel/core@7.26.0)
@@ -89,16 +89,16 @@ importers:
         version: 12.6.0(sass@1.81.0)(webpack@5.96.1)
       semantic-release:
         specifier: 24.1.2
-        version: 24.1.2(typescript@4.7.4)
+        version: 24.1.2(typescript@4.9.5)
       ts-jest:
         specifier: ^27.0.4
-        version: 27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4)
+        version: 27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5)
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
       typescript:
-        specifier: ~4.7.4
-        version: 4.7.4
+        specifier: ~4.9.5
+        version: 4.9.5
 
 packages:
 
@@ -4573,8 +4573,8 @@ packages:
   typedarray-to-buffer@3.1.5:
     resolution: {integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==}
 
-  typescript@4.7.4:
-    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
+  typescript@4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
 
@@ -5532,15 +5532,15 @@ snapshots:
 
   '@sec-ant/readable-stream@0.4.1': {}
 
-  '@semantic-release/changelog@6.0.3(semantic-release@24.1.2(typescript@4.7.4))':
+  '@semantic-release/changelog@6.0.3(semantic-release@24.1.2(typescript@4.9.5))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       fs-extra: 11.2.0
       lodash: 4.17.21
-      semantic-release: 24.1.2(typescript@4.7.4)
+      semantic-release: 24.1.2(typescript@4.9.5)
 
-  '@semantic-release/commit-analyzer@13.0.0(semantic-release@24.1.2(typescript@4.7.4))':
+  '@semantic-release/commit-analyzer@13.0.0(semantic-release@24.1.2(typescript@4.9.5))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.0.0
@@ -5550,7 +5550,7 @@ snapshots:
       import-from-esm: 1.3.4
       lodash-es: 4.17.21
       micromatch: 4.0.8
-      semantic-release: 24.1.2(typescript@4.7.4)
+      semantic-release: 24.1.2(typescript@4.9.5)
     transitivePeerDependencies:
       - supports-color
 
@@ -5558,7 +5558,7 @@ snapshots:
 
   '@semantic-release/error@4.0.0': {}
 
-  '@semantic-release/git@10.0.1(semantic-release@24.1.2(typescript@4.7.4))':
+  '@semantic-release/git@10.0.1(semantic-release@24.1.2(typescript@4.9.5))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
@@ -5568,11 +5568,11 @@ snapshots:
       lodash: 4.17.21
       micromatch: 4.0.8
       p-reduce: 2.1.0
-      semantic-release: 24.1.2(typescript@4.7.4)
+      semantic-release: 24.1.2(typescript@4.9.5)
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/github@11.0.1(semantic-release@24.1.2(typescript@4.7.4))':
+  '@semantic-release/github@11.0.1(semantic-release@24.1.2(typescript@4.9.5))':
     dependencies:
       '@octokit/core': 6.1.2
       '@octokit/plugin-paginate-rest': 11.3.5(@octokit/core@6.1.2)
@@ -5589,12 +5589,12 @@ snapshots:
       lodash-es: 4.17.21
       mime: 4.0.4
       p-filter: 4.1.0
-      semantic-release: 24.1.2(typescript@4.7.4)
+      semantic-release: 24.1.2(typescript@4.9.5)
       url-join: 5.0.0
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/npm@12.0.1(semantic-release@24.1.2(typescript@4.7.4))':
+  '@semantic-release/npm@12.0.1(semantic-release@24.1.2(typescript@4.9.5))':
     dependencies:
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
@@ -5607,11 +5607,11 @@ snapshots:
       rc: 1.2.8
       read-pkg: 9.0.1
       registry-auth-token: 5.0.2
-      semantic-release: 24.1.2(typescript@4.7.4)
+      semantic-release: 24.1.2(typescript@4.9.5)
       semver: 7.6.3
       tempy: 3.1.0
 
-  '@semantic-release/release-notes-generator@14.0.1(semantic-release@24.1.2(typescript@4.7.4))':
+  '@semantic-release/release-notes-generator@14.0.1(semantic-release@24.1.2(typescript@4.9.5))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.0.0
@@ -5623,7 +5623,7 @@ snapshots:
       into-stream: 7.0.0
       lodash-es: 4.17.21
       read-package-up: 11.0.0
-      semantic-release: 24.1.2(typescript@4.7.4)
+      semantic-release: 24.1.2(typescript@4.9.5)
     transitivePeerDependencies:
       - supports-color
 
@@ -5837,32 +5837,32 @@ snapshots:
 
   '@vant/popperjs@1.3.0': {}
 
-  '@vant/use@1.6.0(vue@3.5.13(typescript@4.7.4))':
+  '@vant/use@1.6.0(vue@3.5.13(typescript@4.9.5))':
     dependencies:
-      vue: 3.5.13(typescript@4.7.4)
+      vue: 3.5.13(typescript@4.9.5)
 
   '@vue/cli-overlay@5.0.8': {}
 
-  '@vue/cli-plugin-router@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3))':
+  '@vue/cli-plugin-router@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3))':
     dependencies:
-      '@vue/cli-service': 5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3)
+      '@vue/cli-service': 5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3)
       '@vue/cli-shared-utils': 5.0.8
     transitivePeerDependencies:
       - encoding
 
-  '@vue/cli-plugin-typescript@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3))(typescript@4.7.4)(vue@3.5.13(typescript@4.7.4))':
+  '@vue/cli-plugin-typescript@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3))(typescript@4.9.5)(vue@3.5.13(typescript@4.9.5))':
     dependencies:
       '@babel/core': 7.26.0
       '@types/webpack-env': 1.18.5
-      '@vue/cli-service': 5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3)
+      '@vue/cli-service': 5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3)
       '@vue/cli-shared-utils': 5.0.8
       babel-loader: 8.4.1(@babel/core@7.26.0)(webpack@5.96.1)
-      fork-ts-checker-webpack-plugin: 6.5.3(typescript@4.7.4)(webpack@5.96.1)
+      fork-ts-checker-webpack-plugin: 6.5.3(typescript@4.9.5)(webpack@5.96.1)
       globby: 11.1.0
       thread-loader: 3.0.4(webpack@5.96.1)
-      ts-loader: 9.5.1(typescript@4.7.4)(webpack@5.96.1)
-      typescript: 4.7.4
-      vue: 3.5.13(typescript@4.7.4)
+      ts-loader: 9.5.1(typescript@4.9.5)(webpack@5.96.1)
+      typescript: 4.9.5
+      vue: 3.5.13(typescript@4.9.5)
       webpack: 5.96.1
     transitivePeerDependencies:
       - '@swc/core'
@@ -5873,12 +5873,12 @@ snapshots:
       - uglify-js
       - webpack-cli
 
-  '@vue/cli-plugin-unit-jest@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3))(@vue/vue3-jest@27.0.0(@babel/core@7.26.0)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4))(typescript@4.7.4)(vue@3.5.13(typescript@4.7.4)))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4))':
+  '@vue/cli-plugin-unit-jest@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3))(@vue/vue3-jest@27.0.0(@babel/core@7.26.0)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5))(typescript@4.9.5)(vue@3.5.13(typescript@4.9.5)))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-modules-commonjs': 7.25.9(@babel/core@7.26.0)
       '@types/jest': 27.5.2
-      '@vue/cli-service': 5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3)
+      '@vue/cli-service': 5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3)
       '@vue/cli-shared-utils': 5.0.8
       babel-jest: 27.5.1(@babel/core@7.26.0)
       deepmerge: 4.3.1
@@ -5887,25 +5887,25 @@ snapshots:
       jest-transform-stub: 2.0.0
       jest-watch-typeahead: 1.1.0(jest@27.5.1)
     optionalDependencies:
-      '@vue/vue3-jest': 27.0.0(@babel/core@7.26.0)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4))(typescript@4.7.4)(vue@3.5.13(typescript@4.7.4))
-      ts-jest: 27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4)
+      '@vue/vue3-jest': 27.0.0(@babel/core@7.26.0)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5))(typescript@4.9.5)(vue@3.5.13(typescript@4.9.5))
+      ts-jest: 27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5)
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  '@vue/cli-plugin-vuex@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3))':
+  '@vue/cli-plugin-vuex@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3))':
     dependencies:
-      '@vue/cli-service': 5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3)
+      '@vue/cli-service': 5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3)
 
-  '@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3)':
+  '@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3)':
     dependencies:
       '@babel/helper-compilation-targets': 7.25.9
       '@soda/friendly-errors-webpack-plugin': 1.8.1(webpack@5.96.1)
       '@soda/get-current-script': 1.0.2
       '@types/minimist': 1.2.5
       '@vue/cli-overlay': 5.0.8
-      '@vue/cli-plugin-router': 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3))
-      '@vue/cli-plugin-vuex': 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.7.4))(webpack-sources@3.2.3))
+      '@vue/cli-plugin-router': 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3))
+      '@vue/cli-plugin-vuex': 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(handlebars@4.7.8)(lodash@4.17.21)(sass-loader@12.6.0(sass@1.81.0)(webpack@5.96.1))(vue@3.5.13(typescript@4.9.5))(webpack-sources@3.2.3))
       '@vue/cli-shared-utils': 5.0.8
       '@vue/component-compiler-utils': 3.3.0(handlebars@4.7.8)(lodash@4.17.21)
       '@vue/vue-loader-v15': vue-loader@15.11.1(@vue/compiler-sfc@3.5.13)(css-loader@6.11.0(webpack@5.96.1))(handlebars@4.7.8)(lodash@4.17.21)(webpack@5.96.1)
@@ -5945,7 +5945,7 @@ snapshots:
       ssri: 8.0.1
       terser-webpack-plugin: 5.3.10(webpack@5.96.1)
       thread-loader: 3.0.4(webpack@5.96.1)
-      vue-loader: 17.4.2(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@4.7.4))(webpack@5.96.1)
+      vue-loader: 17.4.2(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@4.9.5))(webpack@5.96.1)
       vue-style-loader: 4.1.3
       webpack: 5.96.1
       webpack-bundle-analyzer: 4.10.2
@@ -6159,11 +6159,11 @@ snapshots:
       '@vue/shared': 3.5.13
       csstype: 3.1.3
 
-  '@vue/server-renderer@3.5.13(vue@3.5.13(typescript@4.7.4))':
+  '@vue/server-renderer@3.5.13(vue@3.5.13(typescript@4.9.5))':
     dependencies:
       '@vue/compiler-ssr': 3.5.13
       '@vue/shared': 3.5.13
-      vue: 3.5.13(typescript@4.7.4)
+      vue: 3.5.13(typescript@4.9.5)
 
   '@vue/shared@3.5.13': {}
 
@@ -6172,7 +6172,7 @@ snapshots:
       js-beautify: 1.15.1
       vue-component-type-helpers: 2.1.10
 
-  '@vue/vue3-jest@27.0.0(@babel/core@7.26.0)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4))(typescript@4.7.4)(vue@3.5.13(typescript@4.7.4))':
+  '@vue/vue3-jest@27.0.0(@babel/core@7.26.0)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5))(typescript@4.9.5)(vue@3.5.13(typescript@4.9.5))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-modules-commonjs': 7.25.9(@babel/core@7.26.0)
@@ -6183,10 +6183,10 @@ snapshots:
       jest: 27.5.1
       source-map: 0.5.6
       tsconfig: 7.0.0
-      vue: 3.5.13(typescript@4.7.4)
+      vue: 3.5.13(typescript@4.9.5)
     optionalDependencies:
-      ts-jest: 27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4)
-      typescript: 4.7.4
+      ts-jest: 27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5)
+      typescript: 4.9.5
     transitivePeerDependencies:
       - supports-color
 
@@ -6850,14 +6850,14 @@ snapshots:
       path-type: 4.0.0
       yaml: 1.10.2
 
-  cosmiconfig@9.0.0(typescript@4.7.4):
+  cosmiconfig@9.0.0(typescript@4.9.5):
     dependencies:
       env-paths: 2.2.1
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
     optionalDependencies:
-      typescript: 4.7.4
+      typescript: 4.9.5
 
   cross-env@7.0.3:
     dependencies:
@@ -7401,7 +7401,7 @@ snapshots:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
-  fork-ts-checker-webpack-plugin@6.5.3(typescript@4.7.4)(webpack@5.96.1):
+  fork-ts-checker-webpack-plugin@6.5.3(typescript@4.9.5)(webpack@5.96.1):
     dependencies:
       '@babel/code-frame': 7.26.2
       '@types/json-schema': 7.0.15
@@ -7416,7 +7416,7 @@ snapshots:
       schema-utils: 2.7.0
       semver: 7.6.3
       tapable: 1.1.3
-      typescript: 4.7.4
+      typescript: 4.9.5
       webpack: 5.96.1
 
   form-data@3.0.2:
@@ -9382,15 +9382,15 @@ snapshots:
       '@types/node-forge': 1.3.11
       node-forge: 1.3.1
 
-  semantic-release@24.1.2(typescript@4.7.4):
+  semantic-release@24.1.2(typescript@4.9.5):
     dependencies:
-      '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.1.2(typescript@4.7.4))
+      '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.1.2(typescript@4.9.5))
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 11.0.1(semantic-release@24.1.2(typescript@4.7.4))
-      '@semantic-release/npm': 12.0.1(semantic-release@24.1.2(typescript@4.7.4))
-      '@semantic-release/release-notes-generator': 14.0.1(semantic-release@24.1.2(typescript@4.7.4))
+      '@semantic-release/github': 11.0.1(semantic-release@24.1.2(typescript@4.9.5))
+      '@semantic-release/npm': 12.0.1(semantic-release@24.1.2(typescript@4.9.5))
+      '@semantic-release/release-notes-generator': 14.0.1(semantic-release@24.1.2(typescript@4.9.5))
       aggregate-error: 5.0.0
-      cosmiconfig: 9.0.0(typescript@4.7.4)
+      cosmiconfig: 9.0.0(typescript@4.9.5)
       debug: 4.3.7
       env-ci: 11.1.0
       execa: 9.5.1
@@ -9826,7 +9826,7 @@ snapshots:
 
   traverse@0.6.8: {}
 
-  ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.7.4):
+  ts-jest@27.1.5(@babel/core@7.26.0)(@types/jest@27.5.2)(babel-jest@27.5.1(@babel/core@7.26.0))(jest@27.5.1)(typescript@4.9.5):
     dependencies:
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
@@ -9836,21 +9836,21 @@ snapshots:
       lodash.memoize: 4.1.2
       make-error: 1.3.6
       semver: 7.6.3
-      typescript: 4.7.4
+      typescript: 4.9.5
       yargs-parser: 20.2.9
     optionalDependencies:
       '@babel/core': 7.26.0
       '@types/jest': 27.5.2
       babel-jest: 27.5.1(@babel/core@7.26.0)
 
-  ts-loader@9.5.1(typescript@4.7.4)(webpack@5.96.1):
+  ts-loader@9.5.1(typescript@4.9.5)(webpack@5.96.1):
     dependencies:
       chalk: 4.1.2
       enhanced-resolve: 5.17.1
       micromatch: 4.0.8
       semver: 7.6.3
       source-map: 0.7.4
-      typescript: 4.7.4
+      typescript: 4.9.5
       webpack: 5.96.1
 
   tsconfig@7.0.0:
@@ -9885,7 +9885,7 @@ snapshots:
     dependencies:
       is-typedarray: 1.0.0
 
-  typescript@4.7.4: {}
+  typescript@4.9.5: {}
 
   uglify-js@3.19.3:
     optional: true
@@ -9946,12 +9946,12 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vant@4.9.9(vue@3.5.13(typescript@4.7.4)):
+  vant@4.9.9(vue@3.5.13(typescript@4.9.5)):
     dependencies:
       '@vant/popperjs': 1.3.0
-      '@vant/use': 1.6.0(vue@3.5.13(typescript@4.7.4))
+      '@vant/use': 1.6.0(vue@3.5.13(typescript@4.9.5))
       '@vue/shared': 3.5.13
-      vue: 3.5.13(typescript@4.7.4)
+      vue: 3.5.13(typescript@4.9.5)
 
   vary@1.1.2: {}
 
@@ -10025,7 +10025,7 @@ snapshots:
       - walrus
       - whiskers
 
-  vue-loader@17.4.2(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@4.7.4))(webpack@5.96.1):
+  vue-loader@17.4.2(@vue/compiler-sfc@3.5.13)(vue@3.5.13(typescript@4.9.5))(webpack@5.96.1):
     dependencies:
       chalk: 4.1.2
       hash-sum: 2.0.0
@@ -10033,12 +10033,12 @@ snapshots:
       webpack: 5.96.1
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.13
-      vue: 3.5.13(typescript@4.7.4)
+      vue: 3.5.13(typescript@4.9.5)
 
-  vue-router@4.4.5(vue@3.5.13(typescript@4.7.4)):
+  vue-router@4.4.5(vue@3.5.13(typescript@4.9.5)):
     dependencies:
       '@vue/devtools-api': 6.6.4
-      vue: 3.5.13(typescript@4.7.4)
+      vue: 3.5.13(typescript@4.9.5)
 
   vue-style-loader@4.1.3:
     dependencies:
@@ -10047,20 +10047,20 @@ snapshots:
 
   vue-template-es2015-compiler@1.9.1: {}
 
-  vue@3.5.13(typescript@4.7.4):
+  vue@3.5.13(typescript@4.9.5):
     dependencies:
       '@vue/compiler-dom': 3.5.13
       '@vue/compiler-sfc': 3.5.13
       '@vue/runtime-dom': 3.5.13
-      '@vue/server-renderer': 3.5.13(vue@3.5.13(typescript@4.7.4))
+      '@vue/server-renderer': 3.5.13(vue@3.5.13(typescript@4.9.5))
       '@vue/shared': 3.5.13
     optionalDependencies:
-      typescript: 4.7.4
+      typescript: 4.9.5
 
-  vuex@4.1.0(vue@3.5.13(typescript@4.7.4)):
+  vuex@4.1.0(vue@3.5.13(typescript@4.9.5)):
     dependencies:
       '@vue/devtools-api': 6.6.4
-      vue: 3.5.13(typescript@4.7.4)
+      vue: 3.5.13(typescript@4.9.5)
 
   w3c-hr-time@1.0.2:
     dependencies:
