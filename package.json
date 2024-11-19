@@ -1,12 +1,12 @@
 {
   "name": "ts-vue3",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "cross-env NODE_ENV=development AUTHOR=yanyunchangfeng vue-cli-service serve",
     "serve-pro": "cross-env NODE_ENV=production AUTHOR=yanyunchangfeng vue-cli-service serve",
     "build": "cross-env NODE_ENV=production AUTHOR=yanyunchangfeng vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "release": "semantic-release"
   },
   "dependencies": {
     "axios": "^1.2.2",
@@ -17,6 +17,12 @@
     "vuex": "^4.0.0"
   },
   "devDependencies": {
+    "semantic-release": "24.1.2",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "13.0.0",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/npm": "12.0.1",
+    "@semantic-release/release-notes-generator": "14.0.1",
     "@types/jest": "^27.0.1",
     "@types/lodash": "^4.14.191",
     "@types/node": "^22.9.0",
